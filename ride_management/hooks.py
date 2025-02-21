@@ -242,3 +242,14 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    "Custom Field",
+    "Property Setter",
+    "DocType",
+    "Role",
+    "Item",
+    "Customer",
+    "Ride Booking",
+    "Ride Add On",
+    "Vehicle Ride"
+]

@@ -1,0 +1,35 @@
+[
+ {
+  "amount": 1000.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-02-21 13:50:55.623919",
+  "name": "4agclvkuus",
+  "parent": "Tesla45-2025-0015",
+  "parentfield": "services",
+  "parenttype": "Ride Booking",
+  "service": "Travel Insurance"
+ },
+ {
+  "amount": 500.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-02-21 13:53:02.527694",
+  "name": "4bo11ojr6n",
+  "parent": "Maruti547-2025-0016",
+  "parentfield": "services",
+  "parenttype": "Ride Booking",
+  "service": "Wi-Fi Access"
+ },
+ {
+  "amount": 1500.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-02-21 13:53:46.666841",
+  "name": "4c5q80dm5n",
+  "parent": "Toyota50-2025-0017",
+  "parentfield": "services",
+  "parenttype": "Ride Booking",
+  "service": "Tourist Guides"
+ }
+]

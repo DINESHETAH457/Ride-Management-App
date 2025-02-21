@@ -1,0 +1,80 @@
+[
+ {
+  "booking_date": "2025-02-11",
+  "customer": "Customer2",
+  "customer_name": "Customer2",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": "20",
+  "make": "Tesla",
+  "modified": "2025-02-21 13:50:55.623919",
+  "name": "Tesla45-2025-0015",
+  "phone_number": null,
+  "price_per_km": "10",
+  "return_date": "2025-02-11",
+  "services": [
+   {
+    "amount": 1000.0,
+    "parent": "Tesla45-2025-0015",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Travel Insurance"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Electric SUV",
+  "vehicle": "Tesla45"
+ },
+ {
+  "booking_date": "2025-02-21",
+  "customer": "Customer1",
+  "customer_name": "Customer1",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": "30",
+  "make": "Maruti",
+  "modified": "2025-02-21 13:53:02.527694",
+  "name": "Maruti547-2025-0016",
+  "phone_number": "8077174445",
+  "price_per_km": "7",
+  "return_date": "2025-02-21",
+  "services": [
+   {
+    "amount": 500.0,
+    "parent": "Maruti547-2025-0016",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Wi-Fi Access"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Motor Vehicle",
+  "vehicle": "Maruti547"
+ },
+ {
+  "booking_date": "2025-02-21",
+  "customer": "Customer2",
+  "customer_name": "Customer2",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": "40",
+  "make": "Toyota",
+  "modified": "2025-02-21 13:53:46.666841",
+  "name": "Toyota50-2025-0017",
+  "phone_number": null,
+  "price_per_km": "5",
+  "return_date": "2025-02-21",
+  "services": [
+   {
+    "amount": 1500.0,
+    "parent": "Toyota50-2025-0017",
+    "parentfield": "services",
+    "parenttype": "Ride Booking",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Sedan",
+  "vehicle": "Toyota50"
+ }
+]
