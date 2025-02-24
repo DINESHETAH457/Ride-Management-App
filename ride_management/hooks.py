@@ -245,6 +245,7 @@ app_license = "mit"
 fixtures = [
     "Custom Field",
     "Property Setter",
+    "Server Script",
     "DocType",
     "Role",
     "Item",
@@ -253,3 +254,4 @@ fixtures = [
     "Ride Add On",
     "Vehicle Ride"
 ]
+

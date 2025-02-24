@@ -1,0 +1,21 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Save",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2025-02-24 11:40:57.182045",
+  "module": "Ride Management",
+  "name": "Calculate Total Amount",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "Ride Booking",
+  "script": "def calculate_total_amount(doc):\n    ride_amount =(doc.price_per_km or 0)*(doc.estimated_km or 0)\n    service_amount = sum(doc.amount or 0 for doc in doc.services)\n    \n    doc.total_amount = ride_amount + service_amount\ncalculate_total_amount(doc)\n\n",
+  "script_type": "DocType Event"
+ }
+]
